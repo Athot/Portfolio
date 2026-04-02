@@ -1,6 +1,22 @@
 @import "tailwindcss";
+@config "../tailwind.config.js";
 
 :root {
+  --font-geist-sans: "Geist Sans", sans-serif;
+  --font-geist-mono: "Geist Mono", monospace;
+  --bg-color: #0f0f0f;
+  --primary-color: #ff007f;
+  --text-color: #ffffff;
+  --text-muted: #b3b3bb33;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #0f0f0f;
+  color: var(--text-color);
+}
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -17,10 +33,10 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
-body {
+/* body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
