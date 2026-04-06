@@ -1,3 +1,4 @@
+// @ts-ignore: side-effect import for global CSS
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { ReactNode } from "react";

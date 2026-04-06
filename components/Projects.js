@@ -43,12 +43,23 @@ export default function Projects() {
       tech: ["Flutter", "PHP", "Mysql"],
       live: "https://apps.apple.com/in/app/prayagedu-admin/id6747156448",
     },
+    {
+      title: "NEFR (North East Food Recipe)",
+      type: "website",
+      description:
+        "Web application to explore and search diverse North East Indian recipes, with user comments and admin management features",
+      tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      github: " https://github.com/Athot/NEFR_Project",
+      // live: null,
+    },
   ];
 
   return (
     <section className="py-24 border-t border-white/10" id="projects">
       <div className="max-w-7xl mx-auto px-6">
-        <h3 className="text-pink-500 text-sm tracking-widest mb-4">PROJECTS</h3>
+        <h3 className="text-gray-400 font-semibold text-sm tracking-widest mb-4">
+          PROJECTS
+        </h3>
 
         <h2 className="text-4xl font-bold mb-12">Things I’ve Built</h2>
 

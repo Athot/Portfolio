@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         background: "#0F172A",
         foreground: "#E5E7EB",
-        // give me pink
+        // give me orange
         primary: "#FF007F",
         secondary: "#22C55E",
         muted: "#94A3B8",

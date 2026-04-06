@@ -30,7 +30,7 @@ export default function ProjectCard({
           <a
             href={github}
             target="_blank"
-            className="text-sm font-semibold text-pink-500 hover:underline"
+            className="text-sm font-semibold text-white hover:underline"
           >
             GitHub →
           </a>
