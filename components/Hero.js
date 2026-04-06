@@ -15,11 +15,11 @@ export default function Hero() {
           </h1>
 
           <h2 className="mt-4 text-2xl md:text-3xl font-semibold text-gray-400">
-            Full Stack & Flutter Developer | MERN Stack
+            Full Stack & App Developer | MERN Stack
           </h2>
 
           <p className="text-gray-400 mt-6 max-w-2xl leading-relaxed">
-            I am a passionate and dedicated Full Stack & Flutter Developer with
+            I am a passionate and dedicated Full Stack & App Developer with
             expertise in the MERN stack. With a strong foundation in both
             frontend and backend development, I create seamless and efficient
             web and mobile applications. My commitment to delivering
