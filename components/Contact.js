@@ -1,4 +1,4 @@
-import { BsLinkedin } from "react-icons/bs";
+import { BsLinkedin, BsTelephoneFill } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -53,6 +53,21 @@ export default function Contact() {
                 <BsLinkedin />
 
                 <span>LinkedIn</span>
+              </a>
+            </div>
+
+            {/* phone */}
+            <div>
+              {/* <p className="text-gray-400 text-sm">LinkedIn</p> */}
+              <a
+                href="tel:+919233465938"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg flex items-center gap-2 font-semibold hover:text-red-200"
+              >
+                <BsTelephoneFill />
+
+                <span>Phone</span>
               </a>
             </div>
           </div>
