@@ -9,7 +9,7 @@ export default function AboutSkills() {
           </h3>
 
           <h2 className="text-4xl font-bold mb-6">
-            Passionate Full Stack & Flutter Developer
+            Passionate Full Stack & App Developer
           </h2>
           <p className="text-gray-400 leading-relaxed mb-4">
             I am a full stack developer focused on building clean, scalable, and
@@ -51,6 +51,7 @@ export default function AboutSkills() {
               "Vercel",
               "Java",
               "Python",
+              "FastAPI  ",
             ].map((skill) => (
               <div
                 key={skill}

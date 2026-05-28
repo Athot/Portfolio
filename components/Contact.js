@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6">
-        <h3 className="text-primary-500 text-sm tracking-widest mb-4">
+        <h3 className="text-gray-400  font-semibold text-sm tracking-widest mb-4">
           CONTACT
         </h3>
 
@@ -45,7 +45,7 @@ export default function Contact() {
             <div>
               {/* <p className="text-gray-400 text-sm">LinkedIn</p> */}
               <a
-                href="https://www.linkedin.com/in/thotshang-mangkung"
+                href="https://www.linkedin.com/in/thotshang"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg flex items-center gap-2 font-semibold hover:text-red-200"
