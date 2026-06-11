@@ -52,7 +52,7 @@ export default function Hero() {
             <div className="absolute bottom-0 left-0 w-full h-1/4 bg-white z-0" />
 
             <Image
-              src="/black.png"
+              src="/black.jpg"
               alt="Profile Image"
               fill
               sizes="(max-width: 768px) 320px, 384px"
