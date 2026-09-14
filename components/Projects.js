@@ -52,6 +52,23 @@ export default function Projects() {
       github: " https://github.com/Athot/NEFR_Project",
       // live: null,
     },
+    {
+      title: "AI-Ready Job Portal",
+      type: "website",
+      description:
+        "Full-stack job portal with role-based authentication, job management, search and filtering, saved jobs, applications, employer applicant management, admin analytics, and job aggregation",
+      tech: [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+      ],
+      github: "https://github.com/Athot/ai-ready-job-portal",
+      live: "https://ai-ready-job-portal.vercel.app",
+    },
   ];
 
   return (
