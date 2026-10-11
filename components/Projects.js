@@ -69,6 +69,26 @@ export default function Projects() {
       github: "https://github.com/Athot/ai-ready-job-portal",
       live: "https://ai-ready-job-portal.vercel.app",
     },
+    {
+      title: "Stock Portfolio Dashboard",
+      type: "website",
+      description:
+        "Full-stack stock portfolio dashboard with Excel upload, automatic stock grouping by sector, investment value calculations, real-time CMP updates every 15 seconds, and P/E ratio tracking. Integrated financial data sources with backend caching to provide an interactive view of portfolio performance.",
+      tech: [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "Axios",
+        "Recharts",
+        "SheetJS (XLSX)",
+        "Yahoo Finance API",
+        "Cheerio",
+      ],
+      github: "https://github.com/Athot/portfolio-dashboard",
+      live: "https://portfolio-dashboard-six-lake.vercel.app/",
+    },
   ];
 
   return (
